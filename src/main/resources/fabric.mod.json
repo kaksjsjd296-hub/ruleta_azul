@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ruletaazul",
+  "version": "${version}",
+  "name": "Ruleta Azul",
+  "description": "Una ruleta azul con 8 eventos aleatorios peligrosos y un temporizador con boss bar.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "icon": "assets/ruletaazul/textures/item/ruleta_azul.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ruletaazul.RuletaAzulMod"],
+    "client": ["com.ruletaazul.client.RuletaAzulClient"]
+  },
+  "mixins": ["ruletaazul.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

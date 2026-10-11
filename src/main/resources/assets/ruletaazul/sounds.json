@@ -1,0 +1,8 @@
+{
+  "alerta_sismica": { "sounds": [ { "name": "ruletaazul:alerta_sismica" } ] },
+  "megafono_alerta": { "sounds": [ { "name": "ruletaazul:megafono_alerta" } ] },
+  "temblor": { "sounds": [ { "name": "ruletaazul:temblor" } ] },
+  "viento": { "sounds": [ { "name": "ruletaazul:viento" } ] },
+  "meteoro": { "sounds": [ { "name": "ruletaazul:meteoro" } ] },
+  "ding": { "sounds": [ { "name": "ruletaazul:ding" } ] }
+}
